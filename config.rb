@@ -7,7 +7,7 @@ css_dir = "css"
 sass_dir = "sass"
 images_dir = "img"
 javascripts_dir = "js"
-
+includes_dir = "inc"
 
 
 # You can select your preferred output style here (can be overridden via the command line):
