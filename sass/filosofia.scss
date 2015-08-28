@@ -1,0 +1,79 @@
+$verde-obscuro:#00853e;
+$verde-claro:#7ac043;
+$azul:#0054a6;
+$negro:#000;
+$casi-negro:#4f4f4f;
+$blanco:#fff;
+
+	#bg{
+		background-image: url('../img/bgimter.png');
+		width: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: auto;
+	}
+	#bg2{
+		background-image: url('../img/bg-mision-vision.png');
+		width: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: auto;
+	}
+
+
+
+.txt-center{
+		text-align: center;
+		font-size: 1em;
+		h1, h2, h3{
+			font-size: 1.5em;
+
+
+		}
+
+		#linea{
+			margin: auto;
+			width: 50%;
+			height: auto;
+			border-bottom: 1px solid $verde-claro;
+			margin-bottom: 0.8em;
+		}
+		#linea2{
+			margin: auto;
+			width: 30%;
+			height: auto;
+			border-bottom: 1px solid $negro;
+			margin-bottom: 0.8em;
+		}
+		ol{
+			padding: 0;
+			font-style: italic;
+			font-size: 16px;
+			li{
+				list-style-type: none;
+
+				
+
+			}
+		}
+	}
+
+@media screen and (min-width: 768px) {
+	h1{
+			margin-top: 200px;
+			text-align: left;
+
+		}
+		.txt-center{
+			#linea{
+				margin-left: 0;
+				width: 20%;
+				border-bottom: 2px solid $verde-claro;
+			}
+			p{
+				text-align: left;
+			}
+		}
+}

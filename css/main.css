@@ -5,39 +5,36 @@
 
 @import "compass/reset";
  */
-/* line 8, ../sass/main.scss */
-.container {
-  background: #00853e;
-}
-/* line 11, ../sass/main.scss */
+/* line 16, ../sass/main.scss */
 .container figure#logo-movil img {
   width: 156px;
-  height: 40px;
+  height: auto;
   display: inline-block;
   vertical-align: top;
 }
 
 /* MENU-MOBILE */
-/* line 22, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 #icon-movil img {
   width: 80px;
   height: 74px;
 }
 
-/* line 26, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 #mobile-menu-button {
   float: right;
   position: relative;
   text-align: center;
 }
 
-/* line 31, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 #mobile-main-menu {
   display: none;
   padding: 0;
+  margin: 0;
 }
 
-/* line 36, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 #mobile-main-menu a {
   border-top: 1px solid #eee;
   color: #000;
@@ -47,31 +44,248 @@
   width: 100%;
 }
 
-/* line 44, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 #mobile-main-menu li {
   list-style-type: none;
   margin: 0;
 }
 
-/* line 48, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 #mobile-main-menu a:hover {
   background-color: #ebebeb;
-  color: #aaa;
+  color: #4f4f4f;
   text-decoration: none;
 }
 
-/* line 53, ../sass/main.scss */
-.txtmenu {
-  top: 27px;
-  margin-right: 9px;
-  float: right;
-  color: white;
-  font-size: 1.1em;
-  list-style-type: none;
-  position: relative;
+/* line 60, ../sass/main.scss */
+#main-menu {
+  margin-top: 30px;
 }
 
-/* line 62, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
+#main-menu a {
+  color: #000;
+}
+
+/* line 67, ../sass/main.scss */
+#main-menu:hover {
+  color: #a3d900;
+}
+
+/* line 71, ../sass/main.scss */
+#main-menu.nav-pills > li.active > a,
+#main-menu.nav-pills > li.active > a:hover,
+#main-menu.nav-pills > li.active > a:focus,
+#main-menu.nav-pills > li > a:hover {
+  background: none;
+}
+
+/* line 77, ../sass/main.scss */
+#main-menu.nav-pills > li.active > a,
+#main-menu.nav-pills > li.active > a:hover,
+#main-menu.nav-pills > li.active > a:focus,
+#main-menu.nav-pills > li > a:hover {
+  color: #fff;
+}
+
+/* line 83, ../sass/main.scss */
+#main-menu.nav-pills > li.active > a,
+#main-menu.nav-pills > li.active > a:hover,
+#main-menu.nav-pills > li.active > a:focus,
+#main-menu.nav-pills > li > a:hover {
+  background: #00853e;
+}
+
+/* line 89, ../sass/main.scss */
+.fondomenu {
+  background-color: #00853e;
+}
+
+/* line 92, ../sass/main.scss */
+.logos {
+  margin-top: 15px;
+}
+
+/* line 95, ../sass/main.scss */
+.txtmenu {
+  margin: 0;
+  color: white;
+  float: right;
+  font-size: 1.1em;
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  right: 89px;
+  top: 27px;
+}
+
+/* line 106, ../sass/main.scss */
 .col-xs-9 {
   padding: 0;
+}
+
+/* line 111, ../sass/main.scss */
+#container-slider {
+  position: fixed;
+}
+/* line 113, ../sass/main.scss */
+#container-slider img {
+  width: 1600px;
+  height: auto;
+}
+
+/* line 119, ../sass/main.scss */
+.servicios {
+  text-align: center;
+}
+/* line 121, ../sass/main.scss */
+.servicios h3 {
+  text-align: center;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+/* line 126, ../sass/main.scss */
+.servicios .col-xs-6 {
+  border-bottom: 1px solid #4f4f4f;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 131, ../sass/main.scss */
+.servicios figure {
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 135, ../sass/main.scss */
+.servicios figure img {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+/* line 145, ../sass/main.scss */
+.footer {
+  width: 100%;
+  text-align: center;
+}
+/* line 148, ../sass/main.scss */
+.footer ul {
+  width: 100%;
+  padding: 0;
+  background: grey;
+}
+/* line 152, ../sass/main.scss */
+.footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: middle;
+  background: red;
+  margin: -4px;
+}
+/* line 159, ../sass/main.scss */
+.footer ul li a {
+  padding: 1em;
+}
+
+/* line 165, ../sass/main.scss */
+.facebook, .twitter, .google {
+  padding: 2.13em 0;
+}
+
+/* line 171, ../sass/main.scss */
+.tel {
+  font-size: 14px;
+}
+/* line 173, ../sass/main.scss */
+.tel li {
+  width: 30%;
+}
+
+/* line 180, ../sass/main.scss */
+.carousel-indicators {
+  display: none;
+}
+
+/* line 183, ../sass/main.scss */
+.carousel-control.left, .carousel-control.right {
+  display: none;
+}
+
+/* line 186, ../sass/main.scss */
+.item {
+  background: #7ac043;
+}
+
+/* line 189, ../sass/main.scss */
+.carousel-caption {
+  padding-left: 9px;
+  background: grey;
+  width: 80%;
+  color: #4f4f4f;
+  text-align: left;
+  text-shadow: none;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+/* line 200, ../sass/main.scss */
+.flechita {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  font-size: 4em;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 209, ../sass/main.scss */
+.flechita a {
+  color: white;
+}
+
+/* line 215, ../sass/main.scss */
+.txt-servicios {
+  width: 80%;
+}
+
+/* line 222, ../sass/main.scss */
+footer #sociales {
+  width: 100%;
+  height: 20px;
+  background: #20358c;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 230, ../sass/main.scss */
+  .fondomenu {
+    background: none;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  /* line 239, ../sass/main.scss */
+  figure#logo-desktop img {
+    width: 100px;
+    margin-left: 80px;
+    height: auto;
+  }
+
+  /* line 245, ../sass/main.scss */
+  .carousel {
+    position: relative;
+  }
+
+  /* line 251, ../sass/main.scss */
+  .carousel-caption {
+    width: 92%;
+  }
+}
+/* line 258, ../sass/main.scss */
+#main-menu {
+  margin-top: 70px;
+  font-weight: bold;
 }

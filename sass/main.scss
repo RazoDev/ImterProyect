@@ -5,16 +5,22 @@
 
 @import "compass/reset";
  */
+$verde-obscuro:#00853e;
+$verde-claro:#7ac043;
+$azul:#0054a6;
+$negro:#000;
+$casi-negro:#4f4f4f;
+$blanco:#fff;
 .container{
-	background: #00853e;
 	figure#logo-movil{
 		img{
 			width: 156px;
-			height: 40px;
+			height: auto;
 			display: inline-block;
 			vertical-align: top;
 		}
 	}
+	
 }
 
 
@@ -28,9 +34,10 @@
 	position: relative;
 	text-align: center;
 }
-#mobile-main-menu{
+#mobile-main-menu{ 
 	display: none;
 	padding: 0;
+	margin: 0;
 }
 
 #mobile-main-menu a{
@@ -47,19 +54,208 @@
 }
 #mobile-main-menu a:hover{
 	background-color: #ebebeb;
-	color: #aaa;
+	color: #4f4f4f;
 	text-decoration: none;
 }
+#main-menu{
+	
+	margin-top: 30px;
+}
+#main-menu a{
+	color: #000;
+}
+#main-menu:hover{
+	color:#a3d900;
+}
+
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus,
+#main-menu.nav-pills>li>a:hover{
+	background: none;
+}
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus,
+#main-menu.nav-pills>li>a:hover{
+	color: $blanco;
+}
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus,
+#main-menu.nav-pills>li>a:hover{
+	background: $verde-obscuro;
+}
+.fondomenu{
+	background-color: $verde-obscuro;
+}
+.logos{
+	margin-top: 15px;
+}
 .txtmenu{
-	top: 27px;
-	margin-right: 9px;
-	float: right;
+	margin: 0;
     color: white;
+    float: right;
     font-size: 1.1em;
     list-style-type: none;
-    position: relative;
+    padding: 0;
+    position: absolute;
+    right: 89px;
+    top: 27px;
 }
 .col-xs-9{
 	padding: 0;
 
 }
+
+#container-slider{
+	position: fixed;
+	img{
+		width: 1600px;
+		height: auto;
+	}
+}
+
+.servicios{
+	text-align: center;
+	h3{
+		text-align: center;
+		font-size: 1.1em;
+		text-transform: uppercase;
+	}
+	.col-xs-6{
+		border-bottom: 1px solid $casi-negro;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	figure{
+		margin: 0 auto;
+		display: inline-block;
+		vertical-align: top;
+		img{
+			width: 100%;
+			height: auto;
+			max-width: 350px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+
+.footer{
+	width: 100%;
+	text-align: center;
+	ul{
+		width: 100%;
+		padding: 0;
+		background: grey;
+		li{
+			
+			list-style-type: none;
+			display: inline-block;
+			vertical-align: middle;
+			background: red;
+				margin: -4px;
+			a{
+				padding: 1em;
+			}
+		}
+	}
+}
+.facebook, .twitter, .google{
+	padding: 2.13em 0;
+	li{
+		
+	}
+}
+.tel{
+	font-size: 14px;
+	li{
+		width: 30%;
+	}
+}
+
+
+// SLIDER
+.carousel-indicators {
+    display: none;
+}
+.carousel-control.left, .carousel-control.right{
+	display: none;
+}
+.item{
+	background: $verde-claro;
+}
+.carousel-caption {
+	padding-left: 9px;
+	background: grey;
+	width: 80%;
+    color: $casi-negro;
+    text-align: left;
+    text-shadow: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+.flechita{
+	
+	margin: 0;
+	padding: 0;
+	height: auto;
+	font-size: 4em;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    a{
+    	color: white;
+    }
+}
+
+
+.txt-servicios{
+	width: 80%;
+
+}
+
+
+footer{
+	#sociales{
+		width: 100%;
+		height: 20px;
+		background: #20358c;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.fondomenu{	
+	background: none;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    background: rgba(255,255,255,0.5);
+	}
+
+	figure#logo-desktop{
+		img{
+			width: 100px;
+			margin-left: 80px;
+			height: auto;
+		}
+	}
+	.carousel {
+	    position: relative;
+	    
+	}
+
+
+	.carousel-caption {
+	width: 92%;
+    
+}
+
+
+}
+	#main-menu{
+		margin-top: 70px;
+		font-weight: bold;
+	}

@@ -1,0 +1,168 @@
+$verde-obscuro:#00853e;
+$verde-claro:#7ac043;
+$azul:#0054a6;
+$negro:#000;
+$casi-negro:#4f4f4f;
+$blanco:#fff;
+article{
+	.cons-sustentable{
+		text-align: center;
+		figure{
+			img{
+				width: 100%;
+				max-height: 250px;
+				max-width: 480px;
+				height: auto;
+			}
+		}
+		p{
+			margin-top: 1em;
+		}
+	}
+}
+article{
+	.dis-bioclimatico{
+		h3{
+			text-align: center;
+		}
+		figure{
+
+			img{
+				width: 100%;
+				max-width: 173px;
+				height: auto;
+			}
+		}
+		p{
+			font-size: 1em;
+		}
+	}
+}
+
+#bg {
+  background-image: url("../img/bgimter.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.container{
+	h1{
+		
+		font-size: 1.5em;
+		text-align: center;
+	}
+	#linea{
+		border-bottom: 1px solid $verde-claro;
+		margin: auto;
+		margin-bottom: 10px;
+		width: 50%;
+	}
+}
+
+.interiorismo, .siempre-creciendo, .financiamiento{
+		h3{
+			text-align: center;
+		}
+	}
+
+article{
+	width: 100%;
+	.logo-financia-credito{
+		padding: 0;
+		figure{
+			img{
+				width:100px;
+				height: auto;
+			}
+		}
+		ul{
+			li{
+				list-style-type: none;
+				&:before{
+					content: "";
+					display: inline-block;
+					margin-right: 5px;
+					background: red;
+					width: 5px;
+					height: 5px;
+					border-radius: 50%;
+				}			
+			}
+		}
+	}
+}
+.btn{
+	a{
+		text-decoration: none;
+		color: white;
+	}
+}
+.boton{
+	margin: 1em 0;
+	text-align: center;
+	
+}
+
+@media screen and (min-width: 768px) {
+	.container{
+		h1{
+		margin-top: 200px;
+		text-align: left;
+		}
+		#linea{
+		margin-left: 0;
+		width: 30%;
+		border-bottom: 2px solid $verde-claro;
+	}
+	}
+
+	article{
+		.cons-sustentable{
+			text-align: left;		
+			p{
+				
+				margin-top: 0;
+				padding-top: 0;		
+			}
+		}
+	}
+	article{
+		.dis-bioclimatico{
+			h3{
+				text-align: left;
+			}
+		}
+	}
+	.interiorismo{
+		margin-top: 3em;
+		h3{
+			text-align: right;
+		}
+	}
+
+	article{
+		.siempre-creciendo{
+			h3{
+				margin-top: 3em;
+			}
+
+			p{
+				width: 80%;
+				margin: auto;
+			}
+		}
+	}
+	article{	
+			.financiamiento{
+				margin-top: 3em;
+				h3{
+					border-right: 1px solid black;
+				}
+			}
+	}
+	.logo-financia-credito{
+		margin-top: 2em;
+	}
+}

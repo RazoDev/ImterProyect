@@ -1,0 +1,74 @@
+/* line 8, ../sass/filosofia.scss */
+#bg {
+  background-image: url("../img/bgimter.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+/* line 16, ../sass/filosofia.scss */
+#bg2 {
+  background-image: url("../img/bg-mision-vision.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+/* line 27, ../sass/filosofia.scss */
+.txt-center {
+  text-align: center;
+  font-size: 1em;
+}
+/* line 30, ../sass/filosofia.scss */
+.txt-center h1, .txt-center h2, .txt-center h3 {
+  font-size: 1.5em;
+}
+/* line 36, ../sass/filosofia.scss */
+.txt-center #linea {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border-bottom: 1px solid #7ac043;
+  margin-bottom: 0.8em;
+}
+/* line 43, ../sass/filosofia.scss */
+.txt-center #linea2 {
+  margin: auto;
+  width: 30%;
+  height: auto;
+  border-bottom: 1px solid #000;
+  margin-bottom: 0.8em;
+}
+/* line 50, ../sass/filosofia.scss */
+.txt-center ol {
+  padding: 0;
+  font-style: italic;
+  font-size: 16px;
+}
+/* line 54, ../sass/filosofia.scss */
+.txt-center ol li {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 64, ../sass/filosofia.scss */
+  h1 {
+    margin-top: 200px;
+    text-align: left;
+  }
+
+  /* line 70, ../sass/filosofia.scss */
+  .txt-center #linea {
+    margin-left: 0;
+    width: 20%;
+    border-bottom: 2px solid #7ac043;
+  }
+  /* line 75, ../sass/filosofia.scss */
+  .txt-center p {
+    text-align: left;
+  }
+}
