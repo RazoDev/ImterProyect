@@ -15,20 +15,20 @@ $blanco:#fff;
 }
 .contacto{
     h1{
-    	text-align: center;
-    	font-size: 1.5em;
+      font-size: 1.5em;
+      text-align: center;
     }
 }
 .imagen-captcha-btn{
-  text-align: center;
   list-style-type: none;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 #mapa{
-  width: 100%;
-  height: 400px;
   background: #dcdcdc;
+  height: 400px;
+  width: 100%;
 }
 
 
@@ -52,9 +52,9 @@ $blanco:#fff;
   }
 
   input[type=submit].btn-block {
-    width: 30%;
     float: right;
     margin-right: 10px;
+    width: 30%;
   }
   #mensaje{
     height: 200px;

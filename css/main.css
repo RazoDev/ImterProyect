@@ -16,8 +16,8 @@
 /* MENU-MOBILE */
 /* line 28, ../sass/main.scss */
 #icon-movil img {
-  width: 80px;
   height: 74px;
+  width: 80px;
 }
 
 /* line 32, ../sass/main.scss */
@@ -30,8 +30,8 @@
 /* line 37, ../sass/main.scss */
 #mobile-main-menu {
   display: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 /* line 43, ../sass/main.scss */
@@ -140,48 +140,48 @@
 }
 /* line 121, ../sass/main.scss */
 .servicios h3 {
-  text-align: center;
   font-size: 1.1em;
+  text-align: center;
   text-transform: uppercase;
 }
 /* line 126, ../sass/main.scss */
 .servicios .col-xs-6 {
   border-bottom: 1px solid #4f4f4f;
-  text-align: center;
   margin-bottom: 10px;
+  text-align: center;
 }
 /* line 131, ../sass/main.scss */
 .servicios figure {
-  margin: 0 auto;
   display: inline-block;
+  margin: 0 auto;
   vertical-align: top;
 }
 /* line 135, ../sass/main.scss */
 .servicios figure img {
-  width: 100%;
   height: auto;
-  max-width: 350px;
   margin-bottom: 10px;
+  max-width: 350px;
+  width: 100%;
 }
 
 /* line 145, ../sass/main.scss */
 .footer {
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 /* line 148, ../sass/main.scss */
 .footer ul {
-  width: 100%;
-  padding: 0;
   background: grey;
+  padding: 0;
+  width: 100%;
 }
 /* line 152, ../sass/main.scss */
 .footer ul li {
-  list-style-type: none;
-  display: inline-block;
-  vertical-align: middle;
-  background: red;
   margin: -4px;
+  background: red;
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle;
 }
 /* line 159, ../sass/main.scss */
 .footer ul li a {
@@ -219,73 +219,73 @@
 
 /* line 189, ../sass/main.scss */
 .carousel-caption {
-  padding-left: 9px;
   background: grey;
+  padding-left: 9px;
   width: 80%;
   color: #4f4f4f;
+  color: white;
+  display: inline-block;
   text-align: left;
   text-shadow: none;
-  display: inline-block;
   vertical-align: middle;
-  color: white;
 }
 
 /* line 200, ../sass/main.scss */
 .flechita {
+  font-size: 4em;
+  height: auto;
   margin: 0;
   padding: 0;
-  height: auto;
-  font-size: 4em;
   display: inline-block;
-  vertical-align: middle;
   text-align: center;
+  vertical-align: middle;
 }
-/* line 209, ../sass/main.scss */
+/* line 208, ../sass/main.scss */
 .flechita a {
   color: white;
 }
 
-/* line 215, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 .txt-servicios {
   width: 80%;
 }
 
-/* line 222, ../sass/main.scss */
+/* line 221, ../sass/main.scss */
 footer #sociales {
-  width: 100%;
-  height: 20px;
   background: #20358c;
+  height: 20px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 230, ../sass/main.scss */
+  /* line 229, ../sass/main.scss */
   .fondomenu {
     background: none;
+    background: rgba(255, 255, 255, 0.5);
     position: absolute;
     width: 100%;
     z-index: 100;
-    background: rgba(255, 255, 255, 0.5);
   }
 
-  /* line 239, ../sass/main.scss */
+  /* line 238, ../sass/main.scss */
   figure#logo-desktop img {
-    width: 100px;
-    margin-left: 80px;
     height: auto;
+    margin-left: 80px;
+    width: 100px;
   }
 
-  /* line 245, ../sass/main.scss */
+  /* line 244, ../sass/main.scss */
   .carousel {
     position: relative;
   }
 
-  /* line 251, ../sass/main.scss */
+  /* line 250, ../sass/main.scss */
   .carousel-caption {
     width: 92%;
   }
 }
-/* line 258, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 #main-menu {
-  margin-top: 70px;
   font-weight: bold;
+  margin-top: 70px;
 }

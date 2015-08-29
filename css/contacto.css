@@ -10,22 +10,22 @@
 
 /* line 17, ../sass/contacto.scss */
 .contacto h1 {
-  text-align: center;
   font-size: 1.5em;
+  text-align: center;
 }
 
 /* line 22, ../sass/contacto.scss */
 .imagen-captcha-btn {
-  text-align: center;
   list-style-type: none;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 /* line 28, ../sass/contacto.scss */
 #mapa {
-  width: 100%;
-  height: 400px;
   background: #dcdcdc;
+  height: 400px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -50,9 +50,9 @@
 
   /* line 54, ../sass/contacto.scss */
   input[type=submit].btn-block {
-    width: 30%;
     float: right;
     margin-right: 10px;
+    width: 30%;
   }
 
   /* line 59, ../sass/contacto.scss */

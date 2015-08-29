@@ -49,6 +49,7 @@
 		<section class='dis-bioclimatico'>
 			<div class="container">
 				<h3>DISEÑO BIOCLIMÁTICO</h3>
+				<div id="linea2"></div>
 				<div class="row">
 				
 					<div class="col-xs-7">
@@ -83,7 +84,8 @@
 	<div class="container interiorismo">
 		<div class="row">
 			<div class="col-xs-offset-1 col-xs-10 col-xs-offset-1 hidden-sm hidden-md hidden-lg">
-				<h3>INTERIORISMO</h3>			
+				<h3>INTERIORISMO</h3>	
+				<div id="linea2"></div>		
 			</div>
 		</div>
 	</div>
@@ -119,7 +121,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-10 col-xs-offset-1">
-						<h3>SIEMPRE EN CRECIMIENTO</h3>			
+						<h3>SIEMPRE EN CRECIMIENTO</h3>	
+						<div id="linea2"></div>		
 					</div>
 				</div>
 			</div>
@@ -142,6 +145,7 @@
 					<div class="col-xs-12">
 						<div class="col-xs-12  col-sm-4">
 							<h3>FINANCIAMIENTO</h3>
+							
 							<div id="linea-derecha"></div>			
 						</div>
 

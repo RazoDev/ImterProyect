@@ -1,35 +1,50 @@
-/* line 8, ../sass/constructora-sustentable.scss */
+/* line 7, ../sass/constructora-sustentable.scss */
+#linea2 {
+  border-bottom: 1px solid black;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* line 14, ../sass/constructora-sustentable.scss */
 article .cons-sustentable {
   text-align: center;
 }
-/* line 11, ../sass/constructora-sustentable.scss */
+/* line 17, ../sass/constructora-sustentable.scss */
 article .cons-sustentable figure img {
   width: 100%;
   max-height: 250px;
   max-width: 480px;
   height: auto;
 }
-/* line 18, ../sass/constructora-sustentable.scss */
+/* line 24, ../sass/constructora-sustentable.scss */
 article .cons-sustentable p {
   margin-top: 1em;
 }
 
-/* line 25, ../sass/constructora-sustentable.scss */
+/* line 31, ../sass/constructora-sustentable.scss */
 article .dis-bioclimatico h3 {
   text-align: center;
 }
-/* line 30, ../sass/constructora-sustentable.scss */
+/* line 34, ../sass/constructora-sustentable.scss */
+article .dis-bioclimatico #linea2 {
+  border-bottom: 1px solid black;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+/* line 42, ../sass/constructora-sustentable.scss */
 article .dis-bioclimatico figure img {
   width: 100%;
   max-width: 173px;
   height: auto;
 }
-/* line 36, ../sass/constructora-sustentable.scss */
+/* line 48, ../sass/constructora-sustentable.scss */
 article .dis-bioclimatico p {
   font-size: 1em;
 }
 
-/* line 42, ../sass/constructora-sustentable.scss */
+/* line 54, ../sass/constructora-sustentable.scss */
 #bg {
   background-image: url("../img/bgimter.png");
   width: 100%;
@@ -39,12 +54,12 @@ article .dis-bioclimatico p {
   height: auto;
 }
 
-/* line 51, ../sass/constructora-sustentable.scss */
+/* line 63, ../sass/constructora-sustentable.scss */
 .container h1 {
   font-size: 1.5em;
   text-align: center;
 }
-/* line 56, ../sass/constructora-sustentable.scss */
+/* line 68, ../sass/constructora-sustentable.scss */
 .container #linea {
   border-bottom: 1px solid #7ac043;
   margin: auto;
@@ -52,108 +67,112 @@ article .dis-bioclimatico p {
   width: 50%;
 }
 
-/* line 65, ../sass/constructora-sustentable.scss */
+/* line 77, ../sass/constructora-sustentable.scss */
 .interiorismo h3, .siempre-creciendo h3, .financiamiento h3 {
   text-align: center;
 }
 
-/* line 70, ../sass/constructora-sustentable.scss */
+/* line 82, ../sass/constructora-sustentable.scss */
 article {
   width: 100%;
 }
-/* line 72, ../sass/constructora-sustentable.scss */
+/* line 84, ../sass/constructora-sustentable.scss */
 article .logo-financia-credito {
   padding: 0;
 }
-/* line 75, ../sass/constructora-sustentable.scss */
+/* line 87, ../sass/constructora-sustentable.scss */
 article .logo-financia-credito figure img {
   width: 100px;
   height: auto;
 }
-/* line 81, ../sass/constructora-sustentable.scss */
+/* line 93, ../sass/constructora-sustentable.scss */
 article .logo-financia-credito ul li {
   list-style-type: none;
 }
-/* line 83, ../sass/constructora-sustentable.scss */
+/* line 95, ../sass/constructora-sustentable.scss */
 article .logo-financia-credito ul li:before {
+  background: red;
+  border-radius: 50%;
   content: "";
   display: inline-block;
-  margin-right: 5px;
-  background: red;
-  width: 5px;
   height: 5px;
-  border-radius: 50%;
+  margin-right: 5px;
+  width: 5px;
 }
 
-/* line 97, ../sass/constructora-sustentable.scss */
+/* line 109, ../sass/constructora-sustentable.scss */
 .btn a {
   text-decoration: none;
   color: white;
 }
 
-/* line 102, ../sass/constructora-sustentable.scss */
+/* line 114, ../sass/constructora-sustentable.scss */
 .boton {
   margin: 1em 0;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 110, ../sass/constructora-sustentable.scss */
+  /* line 122, ../sass/constructora-sustentable.scss */
   .container h1 {
     margin-top: 200px;
     text-align: left;
   }
-  /* line 114, ../sass/constructora-sustentable.scss */
+  /* line 126, ../sass/constructora-sustentable.scss */
   .container #linea {
+    border-bottom: 2px solid #7ac043;
     margin-left: 0;
     width: 30%;
-    border-bottom: 2px solid #7ac043;
   }
 
-  /* line 122, ../sass/constructora-sustentable.scss */
+  /* line 134, ../sass/constructora-sustentable.scss */
   article .cons-sustentable {
     text-align: left;
   }
-  /* line 124, ../sass/constructora-sustentable.scss */
+  /* line 136, ../sass/constructora-sustentable.scss */
   article .cons-sustentable p {
     margin-top: 0;
     padding-top: 0;
   }
 
-  /* line 133, ../sass/constructora-sustentable.scss */
+  /* line 145, ../sass/constructora-sustentable.scss */
   article .dis-bioclimatico h3 {
     text-align: left;
   }
+  /* line 148, ../sass/constructora-sustentable.scss */
+  article .dis-bioclimatico #linea2 {
+    margin-left: 0;
+  }
 
-  /* line 138, ../sass/constructora-sustentable.scss */
+  /* line 153, ../sass/constructora-sustentable.scss */
   .interiorismo {
     margin-top: 3em;
   }
-  /* line 140, ../sass/constructora-sustentable.scss */
+  /* line 155, ../sass/constructora-sustentable.scss */
   .interiorismo h3 {
     text-align: right;
   }
 
-  /* line 147, ../sass/constructora-sustentable.scss */
+  /* line 162, ../sass/constructora-sustentable.scss */
   article .siempre-creciendo h3 {
     margin-top: 3em;
   }
-  /* line 151, ../sass/constructora-sustentable.scss */
+  /* line 166, ../sass/constructora-sustentable.scss */
   article .siempre-creciendo p {
     width: 80%;
     margin: auto;
   }
 
-  /* line 158, ../sass/constructora-sustentable.scss */
+  /* line 173, ../sass/constructora-sustentable.scss */
   article .financiamiento {
     margin-top: 3em;
   }
-  /* line 160, ../sass/constructora-sustentable.scss */
+  /* line 175, ../sass/constructora-sustentable.scss */
   article .financiamiento h3 {
     border-right: 1px solid black;
   }
 
-  /* line 165, ../sass/constructora-sustentable.scss */
+  /* line 180, ../sass/constructora-sustentable.scss */
   .logo-financia-credito {
     margin-top: 2em;
   }

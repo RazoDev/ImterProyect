@@ -26,8 +26,8 @@ $blanco:#fff;
 
 /* MENU-MOBILE */
 #icon-movil img{
-	width: 80px;
 	height: 74px;
+	width: 80px;
 }
 #mobile-menu-button{
 	float: right;
@@ -36,8 +36,8 @@ $blanco:#fff;
 }
 #mobile-main-menu{ 
 	display: none;
-	padding: 0;
 	margin: 0;
+	padding: 0;
 }
 
 #mobile-main-menu a{
@@ -119,43 +119,43 @@ $blanco:#fff;
 .servicios{
 	text-align: center;
 	h3{
-		text-align: center;
 		font-size: 1.1em;
+		text-align: center;
 		text-transform: uppercase;
 	}
 	.col-xs-6{
 		border-bottom: 1px solid $casi-negro;
-		text-align: center;
 		margin-bottom: 10px;
+		text-align: center;
 	}
 	figure{
-		margin: 0 auto;
 		display: inline-block;
+		margin: 0 auto;
 		vertical-align: top;
 		img{
-			width: 100%;
 			height: auto;
-			max-width: 350px;
 			margin-bottom: 10px;
+			max-width: 350px;
+			width: 100%;
 		}
 	}
 }
 
 
 .footer{
-	width: 100%;
 	text-align: center;
+	width: 100%;
 	ul{
-		width: 100%;
-		padding: 0;
 		background: grey;
+		padding: 0;
+		width: 100%;
 		li{
 			
-			list-style-type: none;
-			display: inline-block;
-			vertical-align: middle;
+			margin: -4px;
 			background: red;
-				margin: -4px;
+			display: inline-block;
+			list-style-type: none;
+			vertical-align: middle;
 			a{
 				padding: 1em;
 			}
@@ -187,25 +187,24 @@ $blanco:#fff;
 	background: $verde-claro;
 }
 .carousel-caption {
-	padding-left: 9px;
 	background: grey;
+	padding-left: 9px;
 	width: 80%;
     color: $casi-negro;
+    color: white;
+    display: inline-block;
     text-align: left;
     text-shadow: none;
-    display: inline-block;
     vertical-align: middle;
-    color: white;
 }
-.flechita{
-	
+.flechita{	
+	font-size: 4em;
+	height: auto;
 	margin: 0;
 	padding: 0;
-	height: auto;
-	font-size: 4em;
     display: inline-block;
-    vertical-align: middle;
     text-align: center;
+    vertical-align: middle;
     a{
     	color: white;
     }
@@ -220,26 +219,26 @@ $blanco:#fff;
 
 footer{
 	#sociales{
-		width: 100%;
-		height: 20px;
 		background: #20358c;
+		height: 20px;
+		width: 100%;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.fondomenu{	
 	background: none;
+    background: rgba(255,255,255,0.5);
     position: absolute;
     width: 100%;
     z-index: 100;
-    background: rgba(255,255,255,0.5);
 	}
 
 	figure#logo-desktop{
 		img{
-			width: 100px;
-			margin-left: 80px;
 			height: auto;
+			margin-left: 80px;
+			width: 100px;
 		}
 	}
 	.carousel {
@@ -256,6 +255,6 @@ footer{
 
 }
 	#main-menu{
-		margin-top: 70px;
 		font-weight: bold;
+		margin-top: 70px;
 	}

@@ -4,6 +4,12 @@ $azul:#0054a6;
 $negro:#000;
 $casi-negro:#4f4f4f;
 $blanco:#fff;
+#linea2{
+			border-bottom: 1px solid black;
+			width: 30%;
+			margin: 0 auto;
+			margin-bottom: 30px;
+		}
 article{
 	.cons-sustentable{
 		text-align: center;
@@ -24,6 +30,12 @@ article{
 	.dis-bioclimatico{
 		h3{
 			text-align: center;
+		}
+		#linea2{
+			border-bottom: 1px solid black;
+			width: 30%;
+			margin: 0 auto;
+			margin-bottom: 30px;
 		}
 		figure{
 
@@ -81,13 +93,13 @@ article{
 			li{
 				list-style-type: none;
 				&:before{
+					background: red;
+					border-radius: 50%;
 					content: "";
 					display: inline-block;
-					margin-right: 5px;
-					background: red;
-					width: 5px;
 					height: 5px;
-					border-radius: 50%;
+					margin-right: 5px;
+					width: 5px;
 				}			
 			}
 		}
@@ -112,9 +124,9 @@ article{
 		text-align: left;
 		}
 		#linea{
+		border-bottom: 2px solid $verde-claro;
 		margin-left: 0;
 		width: 30%;
-		border-bottom: 2px solid $verde-claro;
 	}
 	}
 
@@ -132,6 +144,9 @@ article{
 		.dis-bioclimatico{
 			h3{
 				text-align: left;
+			}
+			#linea2{
+				margin-left: 0;
 			}
 		}
 	}

@@ -1,7 +1,6 @@
 /* line 8, ../sass/filosofia.scss */
 #bg {
   background-image: url("../img/bgimter.png");
-  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,63 +10,68 @@
 /* line 16, ../sass/filosofia.scss */
 #bg2 {
   background-image: url("../img/bg-mision-vision.png");
-  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  width: 100%;
 }
 
 /* line 27, ../sass/filosofia.scss */
 .txt-center {
-  text-align: center;
   font-size: 1em;
+  text-align: center;
 }
 /* line 30, ../sass/filosofia.scss */
 .txt-center h1, .txt-center h2, .txt-center h3 {
   font-size: 1.5em;
 }
-/* line 36, ../sass/filosofia.scss */
+/* line 33, ../sass/filosofia.scss */
+.txt-center p:last-child {
+  margin-bottom: 100px;
+}
+/* line 37, ../sass/filosofia.scss */
 .txt-center #linea {
+  border-bottom: 1px solid #7ac043;
+  height: auto;
   margin: auto;
   width: 50%;
-  height: auto;
-  border-bottom: 1px solid #7ac043;
-  margin-bottom: 0.8em;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
-/* line 43, ../sass/filosofia.scss */
+/* line 45, ../sass/filosofia.scss */
 .txt-center #linea2 {
+  border-bottom: 1px solid #000;
+  height: auto;
+  margin-bottom: 0.8em;
   margin: auto;
   width: 30%;
-  height: auto;
-  border-bottom: 1px solid #000;
-  margin-bottom: 0.8em;
 }
-/* line 50, ../sass/filosofia.scss */
+/* line 52, ../sass/filosofia.scss */
 .txt-center ol {
-  padding: 0;
-  font-style: italic;
   font-size: 16px;
+  font-style: italic;
+  padding: 0;
 }
-/* line 54, ../sass/filosofia.scss */
+/* line 56, ../sass/filosofia.scss */
 .txt-center ol li {
   list-style-type: none;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 64, ../sass/filosofia.scss */
+  /* line 66, ../sass/filosofia.scss */
   h1 {
     margin-top: 200px;
     text-align: left;
   }
 
-  /* line 70, ../sass/filosofia.scss */
+  /* line 72, ../sass/filosofia.scss */
   .txt-center #linea {
+    border-bottom: 2px solid #7ac043;
     margin-left: 0;
     width: 20%;
-    border-bottom: 2px solid #7ac043;
   }
-  /* line 75, ../sass/filosofia.scss */
+  /* line 77, ../sass/filosofia.scss */
   .txt-center p {
     text-align: left;
   }

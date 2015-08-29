@@ -56,50 +56,57 @@
 			</section>
 		</article>
 
-		<div class="panel-group" id="acordion" role="tablist" aria-multiselectable="true">
-			<div class="panel panel-default">
-				<div class="panel-heading" role="tab" id="headingOne">
-					<h4 class="panel-title">
-						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							¿QUÉ ES UN SSFI?
-						</a>
-					</h4>
-				</div>
-				<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-					<div class="panel-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi est minus rerum labore quas, autem et magni dicta hic eligendi alias perferendis quos officia asperiores, repellat expedita iusto, veniam tempore!
-					</div>
-				</div>
+		<div id="acordion">
+
+		<div class="subapartado">
+			
+			<div class="titulo">
+				<p class="titulo">¿QUE ES UN SSFI?</p>
 			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading" role="tab" id="headingTwo">
-					<h4 class="panel-title">
-						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							FUNCIONAMIENTO DE UN SSFI
-						</a>
-					</h4>
-				</div>
-				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" >
-					<div class="panel-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti alias, amet, iure est libero suscipit, praesentium repudiandae tempora culpa ad quod nostrum reiciendis saepe voluptas animi ipsum dolore accusamus. Mollitia!
-					</div>
-				</div>
+
+			<div class="info">
+				<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sed, temporibus, veritatis quas consequuntur quaerat repellendus iusto quis itaque similique illo suscipit adipisci vel quasi expedita. Asperiores, culpa, veniam inventore deserunt at mollitia nisi dolores repellat dignissimos voluptate beatae pariatur quibusdam ipsam est assumenda eveniet minus voluptates cupiditate modi odit!</p>
 			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading" role="tab" id="headingThree">
-					<h4>
-						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							BENEFICIOS FISCALES DE UN SISTEMA FOTOVOLTÁICO INTERCONECTADO
-						</a>
-					</h4>
-				</div>
-				<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-					<div class="panel-body">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quidem impedit, minima consequatur aliquam ipsum odit. In ullam, sint, enim dolorem dignissimos repudiandae quae sequi, rem autem vitae, neque velit?
-					</div>
-				</div>
-			</div>
+
 		</div>
+
+		<div class="subapartado">
+			
+			<div class="titulo">
+				<p class="titulo">FUNCIONAMIENTO DE UN SSFI</p>
+			</div>
+
+			<div class="info">
+				<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sed, temporibus, veritatis quas consequuntur quaerat repellendus iusto quis itaque similique illo suscipit adipisci vel quasi expedita. Asperiores, culpa, veniam inventore deserunt at mollitia nisi dolores repellat dignissimos voluptate beatae pariatur quibusdam ipsam est assumenda eveniet minus voluptates cupiditate modi odit!</p>
+			</div>
+
+		</div>
+
+		<div class="subapartado">
+			
+			<div class="titulo">
+				<p class="titulo">BENEFICIOS FISCALES DE UN SISTEMA SOLAR FOTOVOLÁICO INTERCONECTADO</p>
+			</div>
+
+			<div class="info">
+				<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sed, temporibus, veritatis quas consequuntur quaerat repellendus iusto quis itaque similique illo suscipit adipisci vel quasi expedita. Asperiores, culpa, veniam inventore deserunt at mollitia nisi dolores repellat dignissimos voluptate beatae pariatur quibusdam ipsam est assumenda eveniet minus voluptates cupiditate modi odit!</p>
+			</div>
+
+		</div>
+
+		<div class="subapartado">
+			
+			<div class="titulo">
+				<p class="titulo">CANDIDATOS PARA LA INSTALACIÓN DE UN SSFI</p>
+			</div>
+
+			<div class="info">
+				<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sed, temporibus, veritatis quas consequuntur quaerat repellendus iusto quis itaque similique illo suscipit adipisci vel quasi expedita. Asperiores, culpa, veniam inventore deserunt at mollitia nisi dolores repellat dignissimos voluptate beatae pariatur quibusdam ipsam est assumenda eveniet minus voluptates cupiditate modi odit!</p>
+			</div>
+
+		</div>
+
+	</div>
 	
 		<div class="container proveedores">
 			<div class="row">
@@ -108,7 +115,7 @@
 					<div id="linea2"></div>
 
 				</div>
-				<div class="row">
+				
 					<div class="col-xs-12">
 						<ul>
 							<li id="enphase"><a href=""></a></li>
@@ -119,7 +126,7 @@
 							<li id="solartec"><a href=""></a></li>
 						</ul>	
 					</div>
-				</div>
+				
 			</div>
 		</div>
 

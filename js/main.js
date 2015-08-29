@@ -41,4 +41,8 @@ $('#botton').on('click', function() {
 				document.location.reload();
 			});
 
+
+
+
+
 });
