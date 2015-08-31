@@ -43,6 +43,33 @@ $('#botton').on('click', function() {
 
 
 
+// ACORDION
+
+			$('.accordion-titulo').click(function(e){
+				e.preventDefault();
+				var contenido=$(this).next('.accordion-content');
+
+				if (contenido.css('display')=='none') {
+					contenido.slideDown(250);
+					$(this).addClass('open');
+					
+				} 
+				else{
+					contenido.slideUp(250);
+					$(this).removeClass('open');
+				}
+			});
+
+// MENU MOVIL SECION SERVICIOS
+			$('.drop-down').click(function(){
+				if ($('#servicios-movil').css('display')=="none") {
+					$('#servicios-movil').slideDown(200).css('display', 'block');
+				} else{
+					$('#servicios-movil').slideUp(200).css('display', 'block');
+				}
+					
+				
+			});
 
 
 });

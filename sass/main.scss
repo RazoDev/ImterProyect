@@ -38,6 +38,10 @@ $blanco:#fff;
 	display: none;
 	margin: 0;
 	padding: 0;
+	#servicios-movil{
+		padding: 0;
+		display: none;
+	}
 }
 
 #mobile-main-menu a{
@@ -58,7 +62,6 @@ $blanco:#fff;
 	text-decoration: none;
 }
 #main-menu{
-	
 	margin-top: 30px;
 }
 #main-menu a{
@@ -123,10 +126,12 @@ $blanco:#fff;
 		text-align: center;
 		text-transform: uppercase;
 	}
-	.col-xs-6{
+	#linea2{
 		border-bottom: 1px solid $casi-negro;
-		margin-bottom: 10px;
 		text-align: center;
+		width: 30%;
+		margin: 0 auto;
+		margin-bottom: 20px;
 	}
 	figure{
 		display: inline-block;
@@ -142,38 +147,7 @@ $blanco:#fff;
 }
 
 
-.footer{
-	text-align: center;
-	width: 100%;
-	ul{
-		background: grey;
-		padding: 0;
-		width: 100%;
-		li{
-			
-			margin: -4px;
-			background: red;
-			display: inline-block;
-			list-style-type: none;
-			vertical-align: middle;
-			a{
-				padding: 1em;
-			}
-		}
-	}
-}
-.facebook, .twitter, .google{
-	padding: 2.13em 0;
-	li{
-		
-	}
-}
-.tel{
-	font-size: 14px;
-	li{
-		width: 30%;
-	}
-}
+
 
 
 // SLIDER
@@ -196,6 +170,15 @@ $blanco:#fff;
     text-align: left;
     text-shadow: none;
     vertical-align: middle;
+    .btn-primary {
+	    color: #fff;
+	    background-color: $verde-claro;
+	    border-color: $verde-claro;
+	}
+	p{
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+		font-size: 16px;
+	}
 }
 .flechita{	
 	font-size: 4em;
@@ -215,15 +198,94 @@ $blanco:#fff;
 	width: 80%;
 
 }
-
+/* FOOTER MOVIL*/
 
 footer{
 	#sociales{
 		background: #20358c;
-		height: 20px;
+		height: 43px;
 		width: 100%;
 	}
+	.facebook{
+		background: #0072bb;
+		a{
+			margin: 0;
+			padding: 0; 
+			width: 18px;
+			height: 43px;
+			text-align: center;
+			font-size: 2em;
+			line-height: 43px;
+			color: white;
+		}
+
+	}
+	.twitter{
+		background: #00bff3;
+		a{
+			margin: 0;
+			padding: 0; 
+			width: 18px;
+			height: 43px;
+			text-align: center;
+			font-size: 2em;
+			line-height: 43px;
+			color: white;
+		}
+	}
+	.google{
+		background: #ed1b24;
+		a{
+			margin: 0;
+			padding:0; 	 
+			width: 18px;
+			height: 43px;
+			font-size: 1.5em;
+			line-height: 43px;
+			color: white;
+		}
+	}
+	.tel{
+		background: #20368c;
+			text-align: center;
+			
+		span{
+			color: white;
+		}
+	}
+	.muchaweb{
+		text-align: center;
+	}
 }
+
+
+/* FOOTER DESKTOP */
+
+	.footer-desktop{
+		span{
+			color: #0072bb;
+		}
+		ul{
+			li{
+				list-style-type: none;
+				a{
+					color: $casi-negro;
+				}
+			}
+		}
+		#sociales-desktop{
+			a{
+				color: $casi-negro;
+			}
+		}
+		.muchaweb-desktop{
+			text-align: center;
+		}
+
+	}
+	
+
+
 
 @media screen and (min-width: 768px) {
 	.fondomenu{	
@@ -241,16 +303,63 @@ footer{
 			width: 100px;
 		}
 	}
-	.carousel {
-	    position: relative;
-	    
-	}
 
 
-	.carousel-caption {
-	width: 92%;
-    
+	// SLIDER
+.carousel-indicators {
+    display: block;
+   	bottom: 0;
+    left: 300px;
+    .active{
+    	background-color: $verde-claro;
+    }
 }
+.carousel-control.left, .carousel-control.right{
+	display: block;
+	margin-top: 70px;
+}
+.item{
+	background: none;
+	.flechita{
+		display: none;
+	}
+}
+.carousel-caption {
+	background: none;
+	padding-left: 9px;
+	width: 40%;
+    color: $casi-negro;
+    color: white;
+    display: inline-block;
+    text-align: left;
+    text-shadow: none;
+    vertical-align: middle;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    .btn{
+    	position: relative;
+    	display: inline-block;
+    	vertical-align: middle;
+    	left: 100%;
+    	bottom: 60px;
+    	}
+    #linea{
+    	border-bottom: 2px solid $verde-claro;
+    	width: 65%;
+    	}
+    	p{
+    		margin-bottom: 8px;
+    		padding: 0;
+    		width: 95%;
+    	}
+	}
+	.carousel {
+	    position: relative;    
+	}
+	
 
 
 }
@@ -258,3 +367,17 @@ footer{
 		font-weight: bold;
 		margin-top: 70px;
 	}
+
+
+
+
+
+@media screen and (min-width: 830px) {
+	.carousel-caption{
+		margin-bottom: 50px;
+		p{
+		margin: 5px;
+		}
+	}
+}
+

@@ -26,6 +26,7 @@
 				<li><a href="portafolio.php">PORTAFOLIO</a></li>
 				<li><a href="contacto.php">CONTACTO</a></li>
 			</ul>
+
 			<a href="#" id="mobile-menu-button" class="btn-mobile visible-xs">
 				<!-- <span class="glyphicon glyphicon-th-list"></span> -->
 				<span class="txtmenu">MENÚ</span>
@@ -35,14 +36,15 @@
 			</a>
 		</div>
 	</div>
-	</div>
-	<div class="visible-xs">
+</div>
+
+<div class="visible-xs">
 	<ul id="mobile-main-menu">
 		<li><a href="index.php">INICIO</a></li>
 		<li><a href="filosofia.php">FILOSOFÍA</a></li>
-		<li class="dropdown">
-					<a href="sistemas-ssfi.php" class="dropdown-toggle" data-toggle="dropdown">SERVICIOS<span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
+		<li class="drop-down">
+					<a href="#">SERVICIOS<span class="caret"></span></a>
+					<ul id="servicios-movil">
 						<li><a href="sistemas-ssfi.php">Sistemas solares fotovoltáicos</a></li>
 						<li><a href="constructora-sustentable.php">Constructora sustentable</a></li>
 					</ul>

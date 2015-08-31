@@ -56,57 +56,44 @@
 			</section>
 		</article>
 
-		<div id="acordion">
-
-		<div class="subapartado">
-			
-			<div class="titulo">
-				<p class="titulo">¿QUE ES UN SSFI?</p>
+		<div id="accordion-contenedor">
+			<div class="accordion-container">
+				<a href="#" class="accordion-titulo">¿QUE ES UN SSFI? <span class="toggle-icon"></span></a>
+				<div class="accordion-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					Unde, reprehenderit ratione recusandae obcaecati eveniet porro sit! 
+					Debitis cumque blanditiis dolore animi optio, quasi maxime. 
+					Consequuntur dolorem, tempore quos omnis labore!</p>
+				</div>
 			</div>
-
-			<div class="info">
-				<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sed, temporibus, veritatis quas consequuntur quaerat repellendus iusto quis itaque similique illo suscipit adipisci vel quasi expedita. Asperiores, culpa, veniam inventore deserunt at mollitia nisi dolores repellat dignissimos voluptate beatae pariatur quibusdam ipsam est assumenda eveniet minus voluptates cupiditate modi odit!</p>
+			<div class="accordion-container">
+				<a href="#" class="accordion-titulo">FUNCIONAMIENTO DE UN SSFI<span class="toggle-icon"></span></a>
+				<div class="accordion-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					Unde, reprehenderit ratione recusandae obcaecati eveniet porro sit! 
+					Debitis cumque blanditiis dolore animi optio, quasi maxime. 
+					Consequuntur dolorem, tempore quos omnis labore!</p>
+				</div>
 			</div>
-
+			<div class="accordion-container">
+				<a href="#" class="accordion-titulo">BENEFICIOS FISCALES DE UN SISTEMA SOLAR FOTOVOLÁICO INTERCONECTADO<span class="toggle-icon"></span></a>
+				<div class="accordion-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					Unde, reprehenderit ratione recusandae obcaecati eveniet porro sit! 
+					Debitis cumque blanditiis dolore animi optio, quasi maxime. 
+					Consequuntur dolorem, tempore quos omnis labore!</p>
+				</div>
+			</div>
+			<div class="accordion-container">
+				<a href="#" class="accordion-titulo">CANDIDATOS PARA LA INSTALACIÓN DE UN SSFI<span class="toggle-icon"></span></a>
+				<div class="accordion-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					Unde, reprehenderit ratione recusandae obcaecati eveniet porro sit! 
+					Debitis cumque blanditiis dolore animi optio, quasi maxime. 
+					Consequuntur dolorem, tempore quos omnis labore!</p>
+				</div>
+			</div>
 		</div>
-
-		<div class="subapartado">
-			
-			<div class="titulo">
-				<p class="titulo">FUNCIONAMIENTO DE UN SSFI</p>
-			</div>
-
-			<div class="info">
-				<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sed, temporibus, veritatis quas consequuntur quaerat repellendus iusto quis itaque similique illo suscipit adipisci vel quasi expedita. Asperiores, culpa, veniam inventore deserunt at mollitia nisi dolores repellat dignissimos voluptate beatae pariatur quibusdam ipsam est assumenda eveniet minus voluptates cupiditate modi odit!</p>
-			</div>
-
-		</div>
-
-		<div class="subapartado">
-			
-			<div class="titulo">
-				<p class="titulo">BENEFICIOS FISCALES DE UN SISTEMA SOLAR FOTOVOLÁICO INTERCONECTADO</p>
-			</div>
-
-			<div class="info">
-				<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sed, temporibus, veritatis quas consequuntur quaerat repellendus iusto quis itaque similique illo suscipit adipisci vel quasi expedita. Asperiores, culpa, veniam inventore deserunt at mollitia nisi dolores repellat dignissimos voluptate beatae pariatur quibusdam ipsam est assumenda eveniet minus voluptates cupiditate modi odit!</p>
-			</div>
-
-		</div>
-
-		<div class="subapartado">
-			
-			<div class="titulo">
-				<p class="titulo">CANDIDATOS PARA LA INSTALACIÓN DE UN SSFI</p>
-			</div>
-
-			<div class="info">
-				<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sed, temporibus, veritatis quas consequuntur quaerat repellendus iusto quis itaque similique illo suscipit adipisci vel quasi expedita. Asperiores, culpa, veniam inventore deserunt at mollitia nisi dolores repellat dignissimos voluptate beatae pariatur quibusdam ipsam est assumenda eveniet minus voluptates cupiditate modi odit!</p>
-			</div>
-
-		</div>
-
-	</div>
 	
 		<div class="container proveedores">
 			<div class="row">
@@ -135,7 +122,10 @@
 				<div class="col-xs-12">
 					<h3>FINANCIAMIENTO</h3>
 					<div id="linea2"></div>
-					<p>Existen distintas entidades financieras que otorgan financiamientos para la adquisición de Sistemas Fotovoltaicos interconectados. Lo invitamos a ponerse en contacto con nosotros para brindarle asesoría  detallada sobre un financiamiento.</p>
+					<p>Existen distintas entidades financieras que otorgan 
+					 financiamientos para la adquisición de Sistemas Fotovoltaicos interconectados.
+					 Lo invitamos a ponerse en contacto con nosotros para brindarle asesoría  
+					 detallada sobre un financiamiento.</p>
 				</div>
 			</div>
 			<div class="row">

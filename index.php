@@ -29,8 +29,14 @@
 				<div class="item active">
 					<img src="img/slide1.jpg" alt="Paneles Solares">
 					<div class="carousel-caption">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quaerat deserunt quod dignissimos consectetur id atque maxime at natus, ipsum. Eaque adipisci sit blanditiis error. Perspiciatis debitis ducimus doloribus odit.
-						div
+						<h3 class="visible-sm visible-md visible-lg">Construyendo por un bien mayor</h3>
+							<div id="linea"></div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+							   Quibusdam quaerat deserunt quod dignissimos consectetur id atque maxime at natus.
+							</p>
+						<a href="index.php" class="col-sm-12  visible-sm visible-md visible-lg">
+							<button type="button" class="btn btn-primary">DESCÚBRELO</button>
+						</a>
 					</div>
 					<div class="flechita">
 						<a href=""  role="button" data-slide="next">
@@ -41,7 +47,10 @@
 				<div class="item">
 					<img src="img/slide2.jpg" alt="Paneles Solares">
 					<div class="carousel-caption">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quaerat deserunt quod dignissimos consectetur id atque maxime at natus, ipsum. Eaque adipisci sit blanditiis error. Perspiciatis debitis ducimus doloribus odit.
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+							   Quibusdam quaerat deserunt quod dignissimos consectetur id atque maxime at natus.
+							</p>
+
 					</div>
 					<div class="flechita">
 						<a href=""  role="button" data-slide="next">
@@ -52,7 +61,10 @@
 				<div class="item">
 					<img src="img/slide3.jpg" alt="Paneles Solares" width="100%" height="50">
 					<div class="carousel-caption">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quaerat deserunt quod dignissimos consectetur id atque maxime at natus, ipsum. Eaque adipisci sit blanditiis error. Perspiciatis debitis ducimus doloribus odit.
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+							   Quibusdam quaerat deserunt quod dignissimos consectetur id atque maxime at natus.
+							</p>
+
 					</div>
 					<div class="flechita">
 						<a href=""  role="button" data-slide="next">
@@ -80,6 +92,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<h3>Servicios que ofrecemos</h3>
+						<div id="linea2"></div>
 						<figure>
 							<img src="img/espacios-sustentables.jpg" alt="eco-energia-solar" width="460" height="146">
 							
@@ -114,6 +127,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<h3>Algunos de nuestros proyectos</h3>
+						<div id="linea2"></div>
 						<div class="col-xs-offset-3 col-xs-6 col-xs-offset-3"></div>
 					</div>
 				</div>
@@ -136,6 +150,7 @@
                     <ul>
                         <li><img src="img/proyect1.jpg" alt="Image 1" width="230">
                         	<p>Residencia Bioclimática</p>
+                        	<div id="linea2"></div>
                         </li>
                         <li><img src="img/proyect2.jpg" alt="Image 2" width="230">
                         <p>Construcción sustentable Rio Belo</p>
@@ -159,6 +174,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<h3>CONTÁCTANOS</h3>
+						<div id="linea2"></div>
 						<div class="col-xs-offset-3 col-xs-6 col-xs-offset-3"></div>
 					</div>
 				</div>
